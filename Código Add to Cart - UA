@@ -1,0 +1,22 @@
+<h2><strong> AddToCart: Ao adicionar um produto no carrinho</strong></h2>			
+<script>			
+window.dataLayer = window.dataLayer || [];			
+window.dataLayer.push({			
+event': 'GAevent',			
+eventCategory': 'CupcakeSilvestre: EnhancedEcommerce',			
+eventAction': 'AddToCart',			
+ecommerce': {			
+add': {			
+products': [{			
+name': '[[nome-produto]]',			
+id': '[[id-produto]]',			
+price': '[[preco-produto]]',			
+brand': '[[marca-produto]]',			
+category': '[[categoria-produto]]',			
+variant': '[[variacao-produto]]',			
+quantity': '[[quantidade-produto]]'			
+}]			
+}			
+}			
+});			
+</script>			
